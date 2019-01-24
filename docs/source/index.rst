@@ -3,7 +3,7 @@
    You can adapt this file completely to your liking, but it should at least
    contain the root `toctree` directive.
 
-Welcome to ecka-doc's documentation!
+Ecka v0.1.1 documentation
 ====================================
 
 .. toctree::
