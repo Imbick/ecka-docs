@@ -8,7 +8,7 @@
   
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   
-  <title>Installing Ecka &mdash; Ecka 0.1.1 documentation</title>
+  <title>Context menu &mdash; Ecka 0.1.1 documentation</title>
   
 
   
@@ -27,8 +27,7 @@
   <link rel="stylesheet" href="../_static/css/theme.css" type="text/css" />
   <link rel="stylesheet" href="../_static/pygments.css" type="text/css" />
     <link rel="index" title="Index" href="../genindex.html" />
-    <link rel="search" title="Search" href="../search.html" />
-    <link rel="prev" title="Quick start" href="quick-start.html" /> 
+    <link rel="search" title="Search" href="../search.html" /> 
 
   
   <script src="../_static/js/modernizr.min.js"></script>
@@ -82,10 +81,11 @@
             
             
               <p class="caption"><span class="caption-text">User guide</span></p>
-<ul class="current">
+<ul>
 <li class="toctree-l1"><a class="reference internal" href="quick-start.html">Quick start</a></li>
-<li class="toctree-l1 current"><a class="current reference internal" href="#">Installing Ecka</a></li>
-<li class="toctree-l1"><a class="reference internal" href="#uninstalling">Uninstalling</a></li>
+<li class="toctree-l1"><a class="reference internal" href="quick-start.html#stopping-ecka">Stopping Ecka</a></li>
+<li class="toctree-l1"><a class="reference internal" href="installing.html">Installing Ecka</a></li>
+<li class="toctree-l1"><a class="reference internal" href="installing.html#uninstalling">Uninstalling</a></li>
 </ul>
 
             
@@ -131,13 +131,13 @@
     
       <li><a href="../index.html">Docs</a> &raquo;</li>
         
-      <li>Installing Ecka</li>
+      <li>Context menu</li>
     
     
       <li class="wy-breadcrumbs-aside">
         
             
-            <a href="../_sources/user-guide/installing.rst.txt" rel="nofollow"> View page source</a>
+            <a href="../_sources/user-guide/context-menu.rst.txt" rel="nofollow"> View page source</a>
           
         
       </li>
@@ -150,15 +150,24 @@
           <div role="main" class="document" itemscope="itemscope" itemtype="http://schema.org/Article">
            <div itemprop="articleBody">
             
-  <div class="section" id="installing-ecka">
-<h1>Installing Ecka<a class="headerlink" href="#installing-ecka" title="Permalink to this headline">¶</a></h1>
-<p>You can download the latest stable version of Ecka from the <a class="reference external" href="https://ecka.imbick.com/download">download page</a> or the direct link <a class="reference external" href="https://ecka.imbick.com/download/ecka">https://ecka.imbick.com/download/ecka</a></p>
-<p>Once downloaded, extract the <code class="docutils literal notranslate"><span class="pre">ecka</span></code> folder to anywhere on your computer. We recommend <a class="reference external" href="https://www.7-zip.org/">7-Zip</a>.
-Inside this folder you’ll find an executable named <code class="docutils literal notranslate"><span class="pre">ecka.exe</span></code> that will launch the application when double clicked.</p>
+  <div class="section" id="context-menu">
+<h1>Context menu<a class="headerlink" href="#context-menu" title="Permalink to this headline">¶</a></h1>
+<p>When you right-click on the notification icon you will see the Ecka context menu that will list a selection of useful items that you can use to call operations on Ecka.</p>
 </div>
-<div class="section" id="uninstalling">
-<h1>Uninstalling<a class="headerlink" href="#uninstalling" title="Permalink to this headline">¶</a></h1>
-<p>Currently Ecka doesn’t make any changes to your machine outside of the <code class="docutils literal notranslate"><span class="pre">ecka</span></code> folder so to uninstall it you only need to delete this folder.</p>
+<div class="section" id="list-of-menu-items">
+<h1>List of menu items<a class="headerlink" href="#list-of-menu-items" title="Permalink to this headline">¶</a></h1>
+<ul class="simple">
+<li><dl class="first docutils">
+<dt>Close</dt>
+<dd>The <code class="docutils literal notranslate"><span class="pre">close</span></code> item will call the <span class="xref std std-doc">stop operation</span> to Ecka. Once completed the application will fully exit.</dd>
+</dl>
+</li>
+<li><dl class="first docutils">
+<dt>Flows</dt>
+<dd>Inside the <code class="docutils literal notranslate"><span class="pre">Flows</span></code> sub menu you will see a list of all the <a class="reference external" href="/flows">flows</a> that have been added to Ecka. If the flow was successfully loaded you can click it which will call the <a class="reference internal" href="../api/flows/GET-trigger.html"><span class="doc">trigger operation</span></a> for that flow.</dd>
+</dl>
+</li>
+</ul>
 </div>
 
 
@@ -166,13 +175,6 @@ Inside this folder you’ll find an executable named <code class="docutils liter
            
           </div>
           <footer>
-  
-    <div class="rst-footer-buttons" role="navigation" aria-label="footer navigation">
-      
-      
-        <a href="quick-start.html" class="btn btn-neutral" title="Quick start" accesskey="p" rel="prev"><span class="fa fa-arrow-circle-left"></span> Previous</a>
-      
-    </div>
   
 
   <hr/>

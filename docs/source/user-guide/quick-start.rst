@@ -1,12 +1,14 @@
 Quick start
 ===========
 
-Ecka is a cross platform automation application that runs locally on one or more of your device.
-Ecka allows you to create flows that contain configurable steps which run in response to one or more triggers.
+Once :doc:`installed </user-guide/installing>`, you can launch Ecka from the ``ecka.exe`` in the extracted folder. This will start Ecka and place an icon in the notification area.
 
-The core of Ecka is written in `C# <https://docs.microsoft.com/en-us/dotnet/csharp/>`_ targeting `.Net Core <https://github.com/dotnet/core>`_  2.2.
+When running you can right-click the icon to access the context menu. From here you can select commands that will interact with Ecka.
 
-Ecka supports plugins so that you can extend the base feature set.
+Stopping Ecka
+=============
+If you want to close the Ecka application you can choose ``Close`` from the context menu. This will instruct Ecka to begin closing down.
+You can also close Ecka by using the `stop command </stop>`_ via the API.
 
 .. toctree::
    :maxdepth: 1
