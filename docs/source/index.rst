@@ -1,19 +1,22 @@
 Ecka
 ====
 
-Ecka is a cross platform automation application that runs locally on your devices.
-Ecka allows you to create flows that when triggered run steps that you can configure.
+Ecka allows you to control Star Citizen from your touch screen devices.
 
-The core of Ecka is written in `C# <https://docs.microsoft.com/en-us/dotnet/csharp/>`_ targeting `.Net Core <https://github.com/dotnet/core>`_  2.2.
+.. Original content below
+.. Ecka is a cross platform automation application that runs locally on your devices.
+.. Ecka allows you to create flows that when triggered will run steps that you can configure.
 
-Ecka supports plugins so that you can extend the base feature set.
+.. The core of Ecka is written in `C# <https://docs.microsoft.com/en-us/dotnet/csharp/>`_ targeting `.Net Core <https://github.com/dotnet/core>`_  2.2.
+
+.. Ecka supports plugins so that you can extend the base feature set.
 
 .. toctree::
    :maxdepth: 1
    :caption: User guide
 
    user-guide/quick-start
-   user-guide/installing
+   .. user-guide/installing
    user-guide/troubleshooting
    user-guide/flows/index
    user-guide/flows/triggers
@@ -32,6 +35,16 @@ Ecka supports plugins so that you can extend the base feature set.
    dev-guide/plugins/developing
    dev-guide/ui/developing
    
+.. toctree::
+   :maxdepth: 2
+   :caption: API reference
+
+..   api/index
+..   api/service/index
+..   api/service/GET-stop
+..   api/flows/index
+..   api/flows/GET-trigger
+
 .. Indices and tables
 .. ==================
 .. 
