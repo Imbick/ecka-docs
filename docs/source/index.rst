@@ -3,6 +3,8 @@ Ecka
 
 Ecka allows you to control Star Citizen from your touch screen devices.
 
+Ecka runs entirely on your local network. No information is sent out over the internet and stays between the devices you choose to connect to Ecka.
+
 .. Original content below
 .. Ecka is a cross platform automation application that runs locally on your devices.
 .. Ecka allows you to create flows that when triggered will run steps that you can configure.
@@ -16,6 +18,7 @@ Ecka allows you to control Star Citizen from your touch screen devices.
    :caption: User guide
 
    user-guide/quick-start
+   user-guide/requirements
    .. user-guide/installing
    user-guide/troubleshooting
    user-guide/flows/index
