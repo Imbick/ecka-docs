@@ -9,8 +9,8 @@ Quick start
 .. figure:: http://ecka.imbick.com/img/welcome.png
     :width: 200px
     :align: center
-    :height: 100px
     :alt: Ecka welcome screen
+
     Ecka welcome screen
 
 * If you have only one connected network adapter or LAN IP address;
@@ -27,8 +27,8 @@ Quick start
 .. figure:: http://ecka.imbick.com/img/flight-screen-v1.png
     :width: 200px
     :align: center
-    :height: 100px
     :alt: Ecka flight screen
+
     Ecka flight screen
 
 * Whilst Star Citizen is loading copy the `ecka.xml` control profile from the `\\Plugins\\Ecka.StarCitizen.Plugin.0.0.1\\` folder into your Star Citizen control profile folder at `[installPath]\\StarCitizen\\LIVE\\user\\Controls\\Mappings\\`.
